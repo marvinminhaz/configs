@@ -1,0 +1,67 @@
+# ==========================================
+# WINDOW SETUP
+# ==========================================
+[window]
+dimensions = { columns = 125, lines = 30 }
+padding = { x = 12, y = 12 }
+dynamic_padding = true
+opacity = 0.95
+
+# ==========================================
+# FONT CONFIGURATION
+# ==========================================
+[font]
+size = 10.0
+
+[font.normal]
+family = "JetBrains Mono"
+style = "Regular"
+
+[font.bold]
+family = "JetBrains Mono"
+style = "Bold"
+
+[font.italic]
+family = "JetBrains Mono"
+style = "Italic"
+
+[font.bold_italic]
+family = "JetBrains Mono"
+style = "Bold Italic"
+
+# ==========================================
+# COLOR PALETTE (RDR2 Sepia / Misty Dusk)
+# ==========================================
+[colors.primary]
+background = "#181310" # Deep silhouetted bark & dark soil
+foreground = "#e4cfb2" # Soft golden mist glow
+
+[colors.cursor]
+text   = "#181310"
+cursor = "#e8984e" # Vibrant warm sunrise amber
+
+[colors.selection]
+text       = "#181310"
+background = "#c68852"
+
+# Normal terminal colors
+[colors.normal]
+black   = "#2b221c" # Muted shadow tone
+red     = "#b8533b" # Weathered rust red
+green   = "#7a7d4d" # Forest moss / muted foliage
+yellow  = "#d69a53" # Arthur's jacket / dusty leather amber
+blue    = "#687a7d" # Atmospheric distant haze
+magenta = "#9b6059" # Faded dusty maroon
+cyan    = "#8e9982" # Foggy canopy sage
+white   = "#d8c4a8" # Soft parchment highlight
+
+# Bright terminal colors
+[colors.bright]
+black   = "#4a3c32" # Soft timber brown
+red     = "#cf684e" # Warm sunrise crimson
+green   = "#989b65" # Sunlit pine needle
+yellow  = "#f2b568" # Direct godray gold
+blue    = "#82979b" # Sunlit fog blue-gray
+magenta = "#b8766e" # Warm dusk tint
+cyan    = "#adc0a0" # Bright mist sage
+white   = "#fae8ce" # Intense back-light glow

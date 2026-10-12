@@ -1,0 +1,316 @@
+{
+  "$schema": "vscode://schemas/color-theme",
+  "name": "RDR2 Amber",
+  "type": "dark",
+  "colors": {
+    /* Base UI / Shell */
+    "activityBar.background": "#0b0807",
+    "activityBar.foreground": "#f5e7d3",
+    "activityBar.inactiveForeground": "#766355",
+    "activityBarBadge.background": "#f0a255",
+    "activityBarBadge.foreground": "#0b0807",
+
+    "sideBar.background": "#120e0b",
+    "sideBar.foreground": "#d8c5ad",
+    "sideBar.border": "#281f18",
+    "sideBarTitle.foreground": "#f5e7d3",
+    "sideBarSectionHeader.background": "#18120e",
+    "sideBarSectionHeader.foreground": "#f5e7d3",
+
+    "editorGroupHeader.tabsBackground": "#0b0807",
+    "tab.inactiveBackground": "#0b0807",
+    "tab.inactiveForeground": "#a38e7d",
+    "tab.activeBackground": "#120e0b",
+    "tab.activeForeground": "#f7be73",
+    "tab.border": "#1b1410",
+    "tab.activeBorderTop": "#f0a255",
+
+    "editor.background": "#120e0b",
+    "editor.foreground": "#f5e7d3",
+    "editorLineNumber.foreground": "#786555",
+    "editorLineNumber.activeForeground": "#f7be73",
+    "editorCursor.foreground": "#f7be73",
+    "editor.selectionBackground": "#4a382ecc",
+    "editor.lineHighlightBackground": "#1c1511",
+    "editorWhitespace.foreground": "#423329",
+    "editorIndentGuide.background": "#2a2019",
+    "editorIndentGuide.activeBackground": "#4a382e",
+
+    "statusBar.background": "#0b0807",
+    "statusBar.foreground": "#d8c5ad",
+    "statusBar.border": "#281f18",
+    "statusBar.noFolderBackground": "#0b0807",
+
+    "titleBar.activeBackground": "#0b0807",
+    "titleBar.activeForeground": "#f5e7d3",
+    "titleBar.inactiveBackground": "#0b0807",
+    "titleBar.inactiveForeground": "#766355",
+    "titleBar.border": "#281f18",
+
+    "input.background": "#18120e",
+    "input.foreground": "#f5e7d3",
+    "input.border": "#3a2c22",
+    "input.placeholderForeground": "#766355",
+
+    "focusBorder": "#f0a255",
+    "list.hoverBackground": "#2a201980",
+    "list.activeSelectionBackground": "#2e231c",
+    "list.activeSelectionForeground": "#f7be73",
+    "list.inactiveSelectionBackground": "#1c1511",
+
+    /* ========================================================= */
+    /* JUPYTER NOTEBOOK WORKSPACE (.ipynb)                      */
+    /* ========================================================= */
+    "notebook.editorBackground": "#0f0b09",
+    "notebook.cellEditorBackground": "#15100d",
+    "notebook.cellBorderColor": "#2d221b",
+    "notebook.focusedCellBorder": "#f0a255",
+    "notebook.cellHoverStatsAddress": "#786555",
+    "notebook.cellStatusBarItemHoverBackground": "#2d221b",
+    "notebook.cellInsertionIndicator": "#f0a255",
+    "notebookScrollbarSlider.background": "#3a2c2280",
+    "notebookScrollbarSlider.hoverBackground": "#4a382e",
+    "notebookScrollbarSlider.activeBackground": "#f0a25580",
+    "notebook.focusedEditorBorder": "#f0a255",
+    "notebookStatusErrorIcon.foreground": "#e05234",
+    "notebookStatusRunningIcon.foreground": "#f7be73",
+    "notebookStatusSuccessIcon.foreground": "#85c98a",
+    "notebook.outputContainerBackgroundColor": "#100c0a",
+    "notebook.outputContainerBorderColor": "#281f18",
+    "notebook.symbolHighlightBackground": "#3a2c2266",
+
+    /* Terminal Integration */
+    "terminal.background": "#120e0b",
+    "terminal.foreground": "#f5e7d3",
+    "terminal.ansiBlack": "#281f18",
+    "terminal.ansiRed": "#d4583d",
+    "terminal.ansiGreen": "#919958",
+    "terminal.ansiYellow": "#e5a75e",
+    "terminal.ansiBlue": "#7c9599",
+    "terminal.ansiMagenta": "#b86e66",
+    "terminal.ansiCyan": "#9fb093",
+    "terminal.ansiWhite": "#ebd8c0",
+    "terminal.ansiBrightBlack": "#5c493c",
+    "terminal.ansiBrightRed": "#e86e51",
+    "terminal.ansiBrightGreen": "#b4bd73",
+    "terminal.ansiBrightYellow": "#f7be73",
+    "terminal.ansiBrightBlue": "#9ab4b8",
+    "terminal.ansiBrightMagenta": "#d18a80",
+    "terminal.ansiBrightCyan": "#c2d7b8",
+    "terminal.ansiBrightWhite": "#fff3e3"
+  },
+  "tokenColors": [
+    {
+      "name": "Comments",
+      "scope": ["comment", "punctuation.definition.comment"],
+      "settings": {
+        "foreground": "#938070",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Docstrings",
+      "scope": [
+        "comment.block.documentation",
+        "string.quoted.docstring",
+        "string.quoted.docstring.multi.python"
+      ],
+      "settings": {
+        "foreground": "#aa9787",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Keywords & Definition",
+      "scope": ["keyword", "storage.type", "storage.modifier"],
+      "settings": {
+        "foreground": "#e26b50"
+      }
+    },
+    {
+      "name": "Control Flow Keywords",
+      "scope": [
+        "keyword.control",
+        "keyword.control.flow",
+        "keyword.control.import",
+        "keyword.operator.logical.python"
+      ],
+      "settings": {
+        "foreground": "#e85f41",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Functions & Methods",
+      "scope": [
+        "entity.name.function",
+        "support.function",
+        "meta.function-call.generic",
+        "meta.function-call.python"
+      ],
+      "settings": {
+        "foreground": "#f7be73"
+      }
+    },
+    {
+      "name": "Built-in Functions",
+      "scope": ["support.function.builtin"],
+      "settings": {
+        "foreground": "#f0a255"
+      }
+    },
+    {
+      "name": "Classes, Structs & Types",
+      "scope": [
+        "entity.name.type",
+        "entity.name.class",
+        "support.type",
+        "support.class"
+      ],
+      "settings": {
+        "foreground": "#98b9bf",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Built-in Types",
+      "scope": ["support.type.primitive", "support.type.builtin"],
+      "settings": {
+        "foreground": "#80a3a8"
+      }
+    },
+    {
+      "name": "Strings",
+      "scope": ["string.quoted", "string.template"],
+      "settings": {
+        "foreground": "#b4bd73"
+      }
+    },
+    {
+      "name": "String Escapes & Regex",
+      "scope": ["constant.character.escape", "string.regexp"],
+      "settings": {
+        "foreground": "#c2d7b8"
+      }
+    },
+    {
+      "name": "Numbers & Units",
+      "scope": ["constant.numeric"],
+      "settings": {
+        "foreground": "#f0a255"
+      }
+    },
+    {
+      "name": "Booleans & Constants",
+      "scope": [
+        "constant.language.boolean",
+        "constant.language",
+        "constant.other"
+      ],
+      "settings": {
+        "foreground": "#e26b50",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "JSON Keys & Dict Properties",
+      "scope": [
+        "support.type.property-name.json",
+        "meta.object-literal.key",
+        "variable.other.property",
+        "entity.other.attribute-name"
+      ],
+      "settings": {
+        "foreground": "#e5a75e",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Function Parameters",
+      "scope": ["variable.parameter"],
+      "settings": {
+        "foreground": "#e5d4be",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Special Variables (self, cls, this)",
+      "scope": [
+        "variable.language.special",
+        "variable.language.this",
+        "variable.parameter.function.language.special.self.python",
+        "variable.parameter.function.language.special.cls.python"
+      ],
+      "settings": {
+        "foreground": "#e26b50",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Variables & Default Text",
+      "scope": ["variable", "variable.other"],
+      "settings": {
+        "foreground": "#f5e7d3"
+      }
+    },
+    {
+      "name": "Operators",
+      "scope": ["keyword.operator"],
+      "settings": {
+        "foreground": "#d3bc9f"
+      }
+    },
+    {
+      "name": "Punctuation & Delimiters",
+      "scope": [
+        "punctuation",
+        "punctuation.separator",
+        "punctuation.terminator",
+        "punctuation.definition.parameters"
+      ],
+      "settings": {
+        "foreground": "#9a8775"
+      }
+    },
+    {
+      "name": "Brackets & Curly Braces",
+      "scope": [
+        "punctuation.definition.brackets",
+        "punctuation.section.brackets",
+        "punctuation.section.block",
+        "punctuation.definition.dictionary"
+      ],
+      "settings": {
+        "foreground": "#d3bc9f"
+      }
+    },
+    /* Markdown in Jupyter Cells */
+    {
+      "name": "Markdown Headings",
+      "scope": [
+        "heading.1.markdown",
+        "heading.2.markdown",
+        "heading.3.markdown",
+        "entity.name.section.markdown"
+      ],
+      "settings": {
+        "foreground": "#f7be73",
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "Markdown Inline Code",
+      "scope": ["markup.inline.raw.string.markdown"],
+      "settings": {
+        "foreground": "#b4bd73"
+      }
+    },
+    {
+      "name": "Markdown Links",
+      "scope": ["markup.underline.link.markdown", "string.other.link.title.markdown"],
+      "settings": {
+        "foreground": "#98b9bf"
+      }
+    }
+  ]
+}

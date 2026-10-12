@@ -1,0 +1,21 @@
+{
+  "name": "theme-rdr2-amber",
+  "displayName": "RDR2 Amber",
+  "description": "Warm amber, sepia mist, and dark timber theme matching RDR2 wallpaper.",
+  "version": "1.0.0",
+  "engines": {
+    "vscode": "^1.80.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "RDR2 Amber",
+        "uiTheme": "vs-dark",
+        "path": "./themes/rdr2-amber-color-theme.json"
+      }
+    ]
+  }
+}
