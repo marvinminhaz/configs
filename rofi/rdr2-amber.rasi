@@ -1,0 +1,102 @@
+/**
+ * RDR2 Amber - Minimalist Rofi Theme
+ **/
+
+* {
+    /* Palette */
+    bg-main:     #120e0bEE; /* Semi-transparent dark soot */
+    bg-alt:      #1a1411;   /* Elevated surface */
+    bg-selected: #2e231c;   /* Item active background */
+
+    fg-main:     #f5e7d3;   /* Warm ivory cream */
+    fg-muted:    #8f7c6b;   /* Muted sepia */
+    accent:      #f0a255;   /* Amber gold highlight */
+    border-col:  #3a2c22;   /* Subtle timber border */
+
+    /* Typography & Globals */
+    font:            "JetBrains Mono 10";
+    background-color: transparent;
+    text-color:       @fg-main;
+    margin:           0px;
+    padding:          0px;
+    spacing:          0px;
+}
+
+window {
+    transparency:     "real";
+    background-color: @bg-main;
+    text-color:       @fg-main;
+    location:         center;
+    anchor:           center;
+    width:            420px;
+    border:           1px;
+    border-color:     @border-col;
+    border-radius:    8px;
+    padding:          14px;
+}
+
+mainbox {
+    children: [ inputbar, listview ];
+    spacing:  10px;
+}
+
+inputbar {
+    children:         [ prompt, entry ];
+    background-color: @bg-alt;
+    border-radius:    6px;
+    padding:          8px 12px;
+    spacing:          8px;
+    border:           1px;
+    border-color:     @border-col;
+}
+
+prompt {
+    text-color: @accent;
+}
+
+entry {
+    placeholder:       "Search...";
+    placeholder-color: @fg-muted;
+    text-color:        @fg-main;
+}
+
+listview {
+    lines:        6;
+    columns:      1;
+    cycle:        true;
+    scrollbar:    false;
+    spacing:      4px;
+    margin:       4px 0px 0px 0px;
+}
+
+element {
+    padding:       7px 10px;
+    border-radius: 5px;
+    spacing:       8px;
+}
+
+element normal.normal {
+    background-color: transparent;
+    text-color:       @fg-main;
+}
+
+element selected.normal {
+    background-color: @bg-selected;
+    text-color:       @accent;
+    border:           1px;
+    border-color:     @accent;
+}
+
+element alternate.normal {
+    background-color: transparent;
+    text-color:       @fg-main;
+}
+
+element-icon {
+    size: 16px;
+}
+
+element-text {
+    vertical-align: 0.5;
+    text-color:     inherit;
+}

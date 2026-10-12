@@ -1,0 +1,30 @@
+configuration {
+    /* Modes to enable - drun is for Desktop Applications */
+    modi: "drun,run";
+    
+    /* Set drun as the default view when opened */
+    show-images: true;
+    
+    /* Enable application icons */
+    show-icons: true;
+    
+    /* Terminal emulator to use for apps requiring terminal */
+    terminal: "xfce4-terminal";
+
+    /* Search settings */
+    matching: "fuzzy";       /* Enables fuzzy typing matching */
+    tokenize: true;         /* Matches words out of order */
+    case-sensitive: false;  /* Prevents capitalization issues */
+    
+    /* Visual text adjustments */
+    drun-display-format: "{name}";
+    display-drun: " 🔍  Apps ";
+    display-run: " 💻  Run ";
+
+    /* Clean up matching fields to make searching instant */
+    drun-match-fields: "name,generic,exec,categories,keywords";
+}
+
+/* Inherit whatever theme or layout styling you installed previously */
+@import "theme" 
+

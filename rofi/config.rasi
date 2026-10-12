@@ -1,0 +1,26 @@
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+
+//@theme "/usr/share/rofi/themes/dmenu.rasi"
+
+//@theme "/usr/share/rofi/themes/arthur.rasi"
+
+//@theme "/usr/share/rofi/themes/gruvbox-dark.rasi"
+
+configuration {
+    modi: "drun,run,window";
+    show-icons: true;
+    display-drun: "󰄛 ";
+    display-run: " ";
+    display-window: " ";
+    matching: "fuzzy";       /* Enables fuzzy typing matching */
+    tokenize: true;         /* Matches words out of order */
+    case-sensitive: false;  /* Prevents capitalization issues */
+    terminal: "xfce4-terminal";
+    /* Visual text adjustments */
+    drun-display-format: "{name}";
+    /* Clean up matching fields to make searching instant */
+    drun-match-fields: "name,generic,exec,categories,keywords";
+}
+
+@theme "~/.config/rofi/rdr2-amber.rasi"
